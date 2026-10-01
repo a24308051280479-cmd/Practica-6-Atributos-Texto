@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cambio de Color y Tamaño de Texto</title>
+</head>
+<body>
+
+
+    <h1>Ejemplos de Formato de Texto en HTML</h1>
+
+
+    <h2>1. Uso del atributo 'style' (Estándar Moderno)</h2>
+
+
+    <p style="color: red; font-size: 20px;">
+        Este párrafo es de color rojo y tiene un tamaño de 20 píxeles.
+    </p>
+
+
+    <p style="color: #006847; font-size: 28px;">
+        Este texto utiliza un color en código Hexadecimal (#006847) y tamaño de 28px.
+    </p>
+
+    <p style="color: rgb(206, 17, 38); font-size: 14px;">
+        Este texto utiliza formato RGB para el color y un tamaño pequeño de 14px.
+    </p>
+
+    <p>
+        En esta oración, solo <span style="color: blue; font-size: 22px;">esta frase específica</span> cambia a color azul y tamaño de 22px.
+    </p>
+
+
+    <h2>2. Uso de la etiqueta &lt;font&gt; (Método Clásico)</h2>
+
+
+    <font color="purple" size="5">
+        Texto morado utilizando la etiqueta &lt;font&gt; con un tamaño de 5.
+    </font>
+    
+    <br>
+
+    <font color="#CE1126" size="7">
+        Texto rojo con el tamaño máximo (size="7").
+    </font>
+
+</body>
+</html>
